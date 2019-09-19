@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>肖琪峰的简单网页应用</title>
+<script>
+var password = prompt('请输入肖琪峰的密码')
+if (password == '123456'){
+    alert('密码输入正确')
+} else {
+    alert('密码输入错误！')
+}
+
+function color(str){
+    document.body.style.backgroundColor = str;
+}
+</script>
+</head>
+
+<body>
+    <input type="button" value="设定红色" onclick="color('red')">
+    <input type="button" value="设定黄色" onclick="color('yellow')">
+    <input type="button" value="设定蓝色" onclick="color('blue')">
+    <input type="button" value="设定自定义颜色" onclick="color('#22ee00')">
+</body>
+
+</html>

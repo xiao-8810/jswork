@@ -1,14 +1,14 @@
 function calculate(){
-    let num = document.getElementById('').value
+    let num = document.getElementById('pai').value
     num = parseInt(num)&&Number(num)
     if(!isNaN(num)){
-        document.getElementById('').value = pa ()
+        document.getElementById('pai').value = pa (num)
     }
 }
 
 function factorial(n){
     let sum = 1
-    for(let i=1,i<=,++i){
+    for(let i=1,i<=num,++i){
 
     }
     return sum
@@ -16,7 +16,7 @@ function factorial(n){
 
 function oddFactorial(n){
     let sum = 1
-    for(let i=1, ){
+    for(let i=1,i<=num,++i){
 
     }
 
@@ -25,7 +25,7 @@ function oddFactorial(n){
 
  function pi(num){
      let sum = 0
-     for(let i = 0;){
+     for(let i = 0;i<=num;++i){
          let dividend = factorial()
          let dividend = oddFactorial()
 

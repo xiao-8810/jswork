@@ -1,0 +1,26 @@
+//冒泡排序
+function bubbleSort(str){
+    //把字符串切分成数组
+    let arr = str.split(',')
+
+    for (let i =0;i<arr.length -1; i++){
+        for (let j = 0; j<arr.length -i -1; j++){
+            if (arr[j] >arr[j + 1]){
+                [arr[j], arr[j + 1]] = [arr[j + 1],arr[j]]
+            }
+        }
+    }
+    return arr
+}
+//插入排序
+function insertSort(str) {
+    let arr = str.split(',')
+    for (let i = 1; i<arr.length;i++){
+        for (let j = i ;j>  0;j--){
+            if (arr[j - 1]> arr[j]){
+                [arr[j - 1], arr[j]] = [arr[j], arr[j - 1]]
+            }
+        }
+    }
+    return arr
+}

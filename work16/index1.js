@@ -28,6 +28,6 @@ function animate(obj, option){
     var obj = document.getElementById('box');
     obj.onclick = function(){
         var left = parseFloat(Math.random()* 400)
-        var shan = parseFloat(Math.random()* 600)
-        animate(obj, {'left':left, 'top':shan});
+        var top = parseFloat(Math.random()* 600)
+        animate(obj, {'left':left, 'top':top});
     };

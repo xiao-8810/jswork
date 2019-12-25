@@ -16,7 +16,7 @@ body {
 .title {
     font-family: 'Microsoft YaHei';
     color: #666;
-    font-size: 24px;
+    font-size: 24px; 
     text-align: center;
     margin: 10px 0
 }
